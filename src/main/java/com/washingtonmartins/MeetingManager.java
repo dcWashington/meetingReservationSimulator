@@ -1,14 +1,14 @@
-package progFinalProject;
+package com.washingtonmartins;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
 
+@SuppressWarnings("deprecation")
 public class MeetingManager {
 	
-	List<Meeting> meetings = new ArrayList();
+	List<Meeting> meetings = new ArrayList<Meeting>();
 	Scanner input = new Scanner(System.in);
 	
 	public void start() {

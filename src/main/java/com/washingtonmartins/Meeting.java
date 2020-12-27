@@ -1,7 +1,6 @@
-package progFinalProject;
+package com.washingtonmartins;
 
 import java.util.Date;
-import java.util.Scanner;
 
 public class Meeting {
 

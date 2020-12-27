@@ -1,6 +1,6 @@
-package progFinalProject;
+package com.washingtonmartins;
 
-public class Main {
+public class App {
 
 	public static void main(String[] Args) {
 		new MeetingManager().start();
