@@ -7,14 +7,14 @@ public class Meeting {
 	private int id;
 	private String subject;
 	private Date startDay;   //using date and time here
-	private String priority;
+	private int priority;
 //	private Date endDay;
 //	private String endTime;
 	private static int idNumber = 1;
 
 	public Meeting(int id, String subject, Date startDay, 
 			Date endDay, String startTime, String endTime,
-			String priority, boolean cancelable) {
+			int priority, boolean cancelable) {
 		super();
 		this.id = id;
 		this.subject = subject;
@@ -51,11 +51,11 @@ public class Meeting {
 		this.startDay = startDay;
 	}
 
-	public String getPriority() {
+	public int getPriority() {
 		return priority;
 	}
 
-	public void setPriority(String priority) {
+	public void setPriority(int priority) {
 		this.priority = priority;
 	}
 
